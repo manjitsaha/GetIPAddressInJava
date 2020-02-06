@@ -28,8 +28,7 @@ public class GetIPInfo extends JFrame {
 
 	private JPanel contentPane;
 	JTextField IP;
-	private String API_KEYS = "8d5c92fee1b8a5a083402a054f588e45";
-	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	private String API_KEYS = "PUT YOUR API KEY HERE";
 	private URL url;
 	private HttpURLConnection urlc;
 	private BufferedReader br;
